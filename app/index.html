@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DealSleuth — Real Black Friday &amp; Cyber Monday Deals 2026</title>
+<meta name="description" content="36 real Black Friday and Cyber Monday deals, each checked at its store on 27 November 2026, with an honest verdict on whether it is really a deal.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#/">DealSleuth<span class="brand-dot">.</span></a>
+    <p class="tagline">Real Black Friday &amp; Cyber Monday deals — every price checked at its store on 27 November 2026.</p>
+  </div>
+</header>
+<main class="wrap" id="app">
+  <section class="stats" id="stats" aria-label="Deal summary"></section>
+  <section class="controls" aria-label="Search and filters">
+    <input id="search" type="search" placeholder="Search a product, brand or store…" autocomplete="off" aria-label="Search deals">
+    <div class="chip-row" id="category-chips" aria-label="Filter by category"></div>
+    <div class="chip-row" id="store-chips" aria-label="Filter by store"></div>
+    <div class="control-row">
+      <label class="control-label">Min. discount
+        <select id="min-discount">
+          <option value="0">Any discount</option>
+          <option value="20">20% off or more</option>
+          <option value="40">40% off or more</option>
+          <option value="50">50% off or more</option>
+        </select>
+      </label>
+      <label class="control-label">Sort by
+        <select id="sort">
+          <option value="discount">Biggest discount first</option>
+          <option value="savings">Biggest cash saving first</option>
+          <option value="price-asc">Lowest price first</option>
+          <option value="price-desc">Highest price first</option>
+          <option value="verdict">Best verdict first</option>
+        </select>
+      </label>
+      <button id="reset" type="button">Clear filters</button>
+    </div>
+  </section>
+  <p class="result-count" id="result-count" role="status"></p>
+  <section class="deal-grid" id="deal-grid" aria-label="Deals"></section>
+  <section class="detail" id="detail" hidden></section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>How these deals were checked.</strong> Each deal was found and its price read on 27 November 2026 at the store named on the card, or in a deals roundup that names that store. The “checked” time and the source sit on every deal. A deal’s verdict compares its sale price with its usual price and with what the source says about its price history — a small cut on an inflated “was” price is labelled a routine sale, not a bargain.</p>
+    <p>Prices move fast on Black Friday. Always confirm the price at checkout before you buy. DealSleuth is an independent finder and is not affiliated with any store listed here. Sale runs 27–30 November 2026.</p>
+  </div>
+</footer>
+</body>
+</html>
